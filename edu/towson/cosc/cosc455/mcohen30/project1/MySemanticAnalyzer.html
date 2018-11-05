@@ -175,16 +175,16 @@
                         <a href="MyCompiler$.html" title="">MyCompiler</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MyLexicalAnalyzer.html" title=""></a>
-                        <a href="MyLexicalAnalyzer.html" title="">MyLexicalAnalyzer</a>
+                        <a class="class" href="MyLexicalAnalyzer.html" title="This is my Lexical analyzer Handles getting new tokens for the syntax analyzer Input: file text in gtx Output: tokens"></a>
+                        <a href="MyLexicalAnalyzer.html" title="This is my Lexical analyzer Handles getting new tokens for the syntax analyzer Input: file text in gtx Output: tokens">MyLexicalAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="" title="this is my semantic analyzer"></a>
-                        <a href="" title="this is my semantic analyzer">MySemanticAnalyzer</a>
+                        <a class="class" href="" title="this is my semantic analyzer takes parse tree created by syntax analyzer and creates an output html file input: parse tree output: html file"></a>
+                        <a href="" title="this is my semantic analyzer takes parse tree created by syntax analyzer and creates an output html file input: parse tree output: html file">MySemanticAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MySyntaxAnalyzer.html" title="This class checks for syntax errors"></a>
-                        <a href="MySyntaxAnalyzer.html" title="This class checks for syntax errors">MySyntaxAnalyzer</a>
+                        <a class="class" href="MySyntaxAnalyzer.html" title="Takes tokens from the lexical analzyer This class checks for syntax errors Or produces a valid parse tree Input: tokens Output: parse tree"></a>
+                        <a href="MySyntaxAnalyzer.html" title="Takes tokens from the lexical analzyer This class checks for syntax errors Or produces a valid parse tree Input: tokens Output: parse tree">MySyntaxAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
                         <a class="trait" href="SyntaxAnalyzer.html" title=""></a>
@@ -221,7 +221,10 @@
       </h4>
 
       
-          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>this is my semantic analyzer</p></div><div class="toggleContainer block">
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>this is my semantic analyzer
+takes parse tree created by syntax analyzer and creates an output html file
+input: parse tree
+output: html file</p></div><div class="toggleContainer block">
           <span class="toggle">
             Linear Supertypes
           </span>
@@ -392,7 +395,8 @@
         <span class="name">addTextUntilFindingNewToken</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">continues adding text until a new token is found
+</p>
     </li><li name="scala.Any#asInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="asInstanceOf[T0]:T0"></a>
       <span class="permalink">
@@ -448,7 +452,12 @@
         <span class="name">createOutPutFile</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">creates and opens html file if no errors found
+uses parse tree created by syntax analyzer
+utilizes stacks to keep track of both output html tags and input tokens
+stacks are also used to keep track of variables both when defined and when used
+this keeps track of scope
+</p>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySemanticAnalyzer#currentToken" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="currentToken:String"></a>
       <span class="permalink">
@@ -553,7 +562,8 @@
         <span class="name">getNextTokenFromReversedParseTree</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">gets the next token from the parse tree
+</p>
     </li><li name="scala.AnyRef#hashCode" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="hashCode():Int"></a>
       <span class="permalink">
@@ -573,7 +583,7 @@
                 <span class="name">@native</span><span class="args">()</span>
               
         </dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySemanticAnalyzer#isCharStartOfNewToken" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySemanticAnalyzer#isCharStartOfNewToken" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isCharStartOfNewToken(ch:Char):Boolean"></a><a id="isCharStartOfNewToken(Char):Boolean"></a>
       <span class="permalink">
       <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MySemanticAnalyzer.html#isCharStartOfNewToken(ch:Char):Boolean" title="Permalink">
@@ -588,7 +598,9 @@
         <span class="name">isCharStartOfNewToken</span><span class="params">(<span name="ch">ch: <span class="extype" name="scala.Char">Char</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">checks if character is the start of a new token
+</p><div class="fullcomment"><div class="comment cmt"><p>checks if character is the start of a new token
+</p></div><dl class="paramcmts block"><dt class="param">ch</dt><dd class="cmt"><p>char to check</p></dd><dt>returns</dt><dd class="cmt"><p>true if char is start of new token</p></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySemanticAnalyzer#isInMiddleOfParagraph" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="isInMiddleOfParagraph:Boolean"></a>
       <span class="permalink">

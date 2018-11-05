@@ -175,16 +175,16 @@
                         <a href="MyCompiler$.html" title="">MyCompiler</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="" title=""></a>
-                        <a href="" title="">MyLexicalAnalyzer</a>
+                        <a class="class" href="" title="This is my Lexical analyzer Handles getting new tokens for the syntax analyzer Input: file text in gtx Output: tokens"></a>
+                        <a href="" title="This is my Lexical analyzer Handles getting new tokens for the syntax analyzer Input: file text in gtx Output: tokens">MyLexicalAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MySemanticAnalyzer.html" title="this is my semantic analyzer"></a>
-                        <a href="MySemanticAnalyzer.html" title="this is my semantic analyzer">MySemanticAnalyzer</a>
+                        <a class="class" href="MySemanticAnalyzer.html" title="this is my semantic analyzer takes parse tree created by syntax analyzer and creates an output html file input: parse tree output: html file"></a>
+                        <a href="MySemanticAnalyzer.html" title="this is my semantic analyzer takes parse tree created by syntax analyzer and creates an output html file input: parse tree output: html file">MySemanticAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MySyntaxAnalyzer.html" title="This class checks for syntax errors"></a>
-                        <a href="MySyntaxAnalyzer.html" title="This class checks for syntax errors">MySyntaxAnalyzer</a>
+                        <a class="class" href="MySyntaxAnalyzer.html" title="Takes tokens from the lexical analzyer This class checks for syntax errors Or produces a valid parse tree Input: tokens Output: parse tree"></a>
+                        <a href="MySyntaxAnalyzer.html" title="Takes tokens from the lexical analzyer This class checks for syntax errors Or produces a valid parse tree Input: tokens Output: parse tree">MySyntaxAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
                         <a class="trait" href="SyntaxAnalyzer.html" title=""></a>
@@ -221,7 +221,11 @@
       </h4>
 
       
-          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>This is my Lexical analyzer
+Handles getting new tokens for the syntax analyzer
+Input: file text in gtx
+Output: tokens
+</p></div><div class="toggleContainer block">
           <span class="toggle">
             Linear Supertypes
           </span>
@@ -360,7 +364,8 @@
         <span class="name">TOKEN_LIST</span><span class="result">: <span class="extype" name="scala.collection.immutable.List">List</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
       </span>
       
-      
+      <p class="shortcomment cmt">list of tokens from bnf
+</p>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#addChar" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="addChar():Unit"></a>
       <span class="permalink">
@@ -468,7 +473,8 @@ case.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a h
         <span class="name">fileLength</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">the length of the input file
+</p>
     </li><li name="scala.AnyRef#finalize" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="finalize():Unit"></a>
       <span class="permalink">
@@ -543,7 +549,7 @@ case.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a h
                 <span class="name">@native</span><span class="args">()</span>
               
         </dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#getLastChar" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#getLastChar" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="getLastChar(newToken:String):String"></a><a id="getLastChar(String):String"></a>
       <span class="permalink">
       <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyLexicalAnalyzer.html#getLastChar(newToken:String):String" title="Permalink">
@@ -558,7 +564,7 @@ case.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a h
         <span class="name">getLastChar</span><span class="params">(<span name="newToken">newToken: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>the last character in a passed string</p></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#getNextToken" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="getNextToken():Unit"></a>
       <span class="permalink">
@@ -597,7 +603,7 @@ end of line characters to determine relevant tokens.
       
       <p class="shortcomment cmt">A helper method to get the next non-blank character.</p><div class="fullcomment"><div class="comment cmt"><p>A helper method to get the next non-blank character.
 </p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>the next non blank character</p></dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#hasMoreNonBlankCharacters" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#hasMoreNonBlankCharacters" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="hasMoreNonBlankCharacters():Boolean"></a>
       <span class="permalink">
       <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyLexicalAnalyzer.html#hasMoreNonBlankCharacters():Boolean" title="Permalink">
@@ -612,7 +618,9 @@ end of line characters to determine relevant tokens.
         <span class="name">hasMoreNonBlankCharacters</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">used to catch errors after end symbol
+</p><div class="fullcomment"><div class="comment cmt"><p>used to catch errors after end symbol
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>true if there are more nonblanks</p></dd></dl></div>
     </li><li name="scala.AnyRef#hashCode" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="hashCode():Int"></a>
       <span class="permalink">
@@ -632,23 +640,7 @@ end of line characters to determine relevant tokens.
                 <span class="name">@native</span><span class="args">()</span>
               
         </dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#initializeLexemes" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="initializeLexemes():Unit"></a>
-      <span class="permalink">
-      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyLexicalAnalyzer.html#initializeLexemes():Unit" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">initializeLexemes</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
-      </span>
-      
-      
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#isCharStartOfNewToken" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#isCharStartOfNewToken" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isCharStartOfNewToken(ch:Char):Boolean"></a><a id="isCharStartOfNewToken(Char):Boolean"></a>
       <span class="permalink">
       <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyLexicalAnalyzer.html#isCharStartOfNewToken(ch:Char):Boolean" title="Permalink">
@@ -663,8 +655,8 @@ end of line characters to determine relevant tokens.
         <span class="name">isCharStartOfNewToken</span><span class="params">(<span name="ch">ch: <span class="extype" name="scala.Char">Char</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       
-      
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#isCharWhiteSpace" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt class="param">ch</dt><dd class="cmt"><p>char to check</p></dd><dt>returns</dt><dd class="cmt"><p>true if start of new token</p></dd></dl></div>
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#isCharWhiteSpace" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isCharWhiteSpace(ch:Char):Boolean"></a><a id="isCharWhiteSpace(Char):Boolean"></a>
       <span class="permalink">
       <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyLexicalAnalyzer.html#isCharWhiteSpace(ch:Char):Boolean" title="Permalink">
@@ -679,7 +671,7 @@ end of line characters to determine relevant tokens.
         <span class="name">isCharWhiteSpace</span><span class="params">(<span name="ch">ch: <span class="extype" name="scala.Char">Char</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt class="param">ch</dt><dd class="cmt"><p>character to check</p></dd><dt>returns</dt><dd class="cmt"><p>true if ch is white space character</p></dd></dl></div>
     </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isInstanceOf[T0]:Boolean"></a>
       <span class="permalink">
@@ -696,7 +688,7 @@ end of line characters to determine relevant tokens.
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#isSpace" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#isSpace" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isSpace(nextChar:Char):Boolean"></a><a id="isSpace(Char):Boolean"></a>
       <span class="permalink">
       <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyLexicalAnalyzer.html#isSpace(nextChar:Char):Boolean" title="Permalink">
@@ -711,7 +703,7 @@ end of line characters to determine relevant tokens.
         <span class="name">isSpace</span><span class="params">(<span name="nextChar">nextChar: <span class="extype" name="scala.Char">Char</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt class="param">nextChar</dt><dd class="cmt"><p>char to check</p></dd><dt>returns</dt><dd class="cmt"><p>true fi character is space or new line, tab</p></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#lexeme" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="lexeme:String"></a>
       <span class="permalink">
@@ -743,7 +735,9 @@ end of line characters to determine relevant tokens.
         <span class="name">lookup</span><span class="params">(<span name="possibleToken">possibleToken: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer">MyLexicalAnalyzer</a> → <a href="LexicalAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.LexicalAnalyzer">LexicalAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">checks if string is a valid token
+</p><div class="fullcomment"><div class="comment cmt"><p>checks if string is a valid token
+</p></div><dl class="paramcmts block"><dt class="param">possibleToken</dt><dd class="cmt"><p>token to check</p></dd><dt>returns</dt><dd class="cmt"><p>true if token is valid</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer">MyLexicalAnalyzer</a> → <a href="LexicalAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.LexicalAnalyzer">LexicalAnalyzer</a></dd></dl></div>
     </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -845,7 +839,9 @@ end of line characters to determine relevant tokens.
         <span class="name">position</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">starts at neg one to catch first character
+keeps track of position in string throughout parsing
+</p>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyLexicalAnalyzer#sourceText" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="sourceText:String"></a>
       <span class="permalink">
@@ -877,7 +873,8 @@ end of line characters to determine relevant tokens.
         <span class="name">start</span><span class="params">(<span name="textFromFile">textFromFile: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">primes the lexical analyzer for starting to scan for tokens
+</p>
     </li><li name="scala.AnyRef#synchronized" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="synchronized[T0](x$1:=&gt;T0):T0"></a><a id="synchronized[T0](⇒T0):T0"></a>
       <span class="permalink">

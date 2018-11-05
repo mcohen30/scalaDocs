@@ -175,16 +175,16 @@
                         <a href="" title="">MyCompiler</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MyLexicalAnalyzer.html" title=""></a>
-                        <a href="MyLexicalAnalyzer.html" title="">MyLexicalAnalyzer</a>
+                        <a class="class" href="MyLexicalAnalyzer.html" title="This is my Lexical analyzer Handles getting new tokens for the syntax analyzer Input: file text in gtx Output: tokens"></a>
+                        <a href="MyLexicalAnalyzer.html" title="This is my Lexical analyzer Handles getting new tokens for the syntax analyzer Input: file text in gtx Output: tokens">MyLexicalAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MySemanticAnalyzer.html" title="this is my semantic analyzer"></a>
-                        <a href="MySemanticAnalyzer.html" title="this is my semantic analyzer">MySemanticAnalyzer</a>
+                        <a class="class" href="MySemanticAnalyzer.html" title="this is my semantic analyzer takes parse tree created by syntax analyzer and creates an output html file input: parse tree output: html file"></a>
+                        <a href="MySemanticAnalyzer.html" title="this is my semantic analyzer takes parse tree created by syntax analyzer and creates an output html file input: parse tree output: html file">MySemanticAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MySyntaxAnalyzer.html" title="This class checks for syntax errors"></a>
-                        <a href="MySyntaxAnalyzer.html" title="This class checks for syntax errors">MySyntaxAnalyzer</a>
+                        <a class="class" href="MySyntaxAnalyzer.html" title="Takes tokens from the lexical analzyer This class checks for syntax errors Or produces a valid parse tree Input: tokens Output: parse tree"></a>
+                        <a href="MySyntaxAnalyzer.html" title="Takes tokens from the lexical analzyer This class checks for syntax errors Or produces a valid parse tree Input: tokens Output: parse tree">MySyntaxAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
                         <a class="trait" href="SyntaxAnalyzer.html" title=""></a>
@@ -462,38 +462,23 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#errorLineNum" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="errorLineNum:Int"></a>
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#extractTextFromGTXFile" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="extractTextFromGTXFile:Unit"></a>
       <span class="permalink">
-      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyCompiler$.html#errorLineNum:Int" title="Permalink">
+      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyCompiler$.html#extractTextFromGTXFile:Unit" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
       <span class="modifier_kind">
         <span class="modifier"></span>
-        <span class="kind">var</span>
+        <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">errorLineNum</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+        <span class="name">extractTextFromGTXFile</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#errorMessage" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="errorMessage:String"></a>
-      <span class="permalink">
-      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyCompiler$.html#errorMessage:String" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">var</span>
-      </span>
-      <span class="symbol">
-        <span class="name">errorMessage</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
-      </span>
-      
-      
+      <p class="shortcomment cmt">extracts text from gtx file
+</p>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#filename" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="filename:String"></a>
       <span class="permalink">
@@ -602,7 +587,7 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#main" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#main" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="main(args:Array[String]):Unit"></a><a id="main(Array[String]):Unit"></a>
       <span class="permalink">
       <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyCompiler$.html#main(args:Array[String]):Unit" title="Permalink">
@@ -617,7 +602,9 @@
         <span class="name">main</span><span class="params">(<span name="args">args: <span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">the main driver for the program
+</p><div class="fullcomment"><div class="comment cmt"><p>the main driver for the program
+</p></div><dl class="paramcmts block"><dt class="param">args</dt><dd class="cmt"><p>the first argument should be a .gtx file</p></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#mySemA" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="mySemA:edu.towson.cosc.cosc455.mcohen30.project1.MySemanticAnalyzer"></a><a id="mySemA:MySemanticAnalyzer"></a>
       <span class="permalink">
@@ -688,6 +675,22 @@
                 <span class="name">@native</span><span class="args">()</span>
               
         </dd></dl></div>
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#removeTrailingWhiteSpaces" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="removeTrailingWhiteSpaces(textFromFile:String):String"></a><a id="removeTrailingWhiteSpaces(String):String"></a>
+      <span class="permalink">
+      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyCompiler$.html#removeTrailingWhiteSpaces(textFromFile:String):String" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">removeTrailingWhiteSpaces</span><span class="params">(<span name="textFromFile">textFromFile: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      
+      
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#setCurrentToken" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="setCurrentToken(t:String):Unit"></a><a id="setCurrentToken(String):Unit"></a>
       <span class="permalink">
@@ -720,6 +723,22 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MyCompiler#textFromFile" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="textFromFile:String"></a>
+      <span class="permalink">
+      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MyCompiler$.html#textFromFile:String" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">textFromFile</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      
+      
     </li><li name="scala.AnyRef#toString" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="toString():String"></a>
       <span class="permalink">

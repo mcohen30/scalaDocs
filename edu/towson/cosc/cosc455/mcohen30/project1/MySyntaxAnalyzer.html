@@ -175,16 +175,16 @@
                         <a href="MyCompiler$.html" title="">MyCompiler</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MyLexicalAnalyzer.html" title=""></a>
-                        <a href="MyLexicalAnalyzer.html" title="">MyLexicalAnalyzer</a>
+                        <a class="class" href="MyLexicalAnalyzer.html" title="This is my Lexical analyzer Handles getting new tokens for the syntax analyzer Input: file text in gtx Output: tokens"></a>
+                        <a href="MyLexicalAnalyzer.html" title="This is my Lexical analyzer Handles getting new tokens for the syntax analyzer Input: file text in gtx Output: tokens">MyLexicalAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="MySemanticAnalyzer.html" title="this is my semantic analyzer"></a>
-                        <a href="MySemanticAnalyzer.html" title="this is my semantic analyzer">MySemanticAnalyzer</a>
+                        <a class="class" href="MySemanticAnalyzer.html" title="this is my semantic analyzer takes parse tree created by syntax analyzer and creates an output html file input: parse tree output: html file"></a>
+                        <a href="MySemanticAnalyzer.html" title="this is my semantic analyzer takes parse tree created by syntax analyzer and creates an output html file input: parse tree output: html file">MySemanticAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
-                        <a class="class" href="" title="This class checks for syntax errors"></a>
-                        <a href="" title="This class checks for syntax errors">MySyntaxAnalyzer</a>
+                        <a class="class" href="" title="Takes tokens from the lexical analzyer This class checks for syntax errors Or produces a valid parse tree Input: tokens Output: parse tree"></a>
+                        <a href="" title="Takes tokens from the lexical analzyer This class checks for syntax errors Or produces a valid parse tree Input: tokens Output: parse tree">MySyntaxAnalyzer</a>
                       </li><li class="current-entities indented6">
                         <span class="separator"></span>
                         <a class="trait" href="SyntaxAnalyzer.html" title=""></a>
@@ -221,7 +221,11 @@
       </h4>
 
       
-          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>This class checks for syntax errors
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Takes tokens from the lexical analzyer
+This class checks for syntax errors
+Or produces a valid parse tree
+Input: tokens
+Output: parse tree
 </p></div><div class="toggleContainer block">
           <span class="toggle">
             Linear Supertypes
@@ -361,7 +365,8 @@
         <span class="name">addCurrentTokenToParseTree</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">add successfully parsed token to parse tree
+</p>
     </li><li name="scala.Any#asInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="asInstanceOf[T0]:T0"></a>
       <span class="permalink">
@@ -393,7 +398,9 @@
         <span class="name">body</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles body tag per bnf
+</p><div class="fullcomment"><div class="comment cmt"><p>handles body tag per bnf
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#bold" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="bold():Unit"></a>
       <span class="permalink">
@@ -409,7 +416,9 @@
         <span class="name">bold</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles bold tag per bnf
+</p><div class="fullcomment"><div class="comment cmt"><p>handles bold tag per bnf
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="scala.AnyRef#clone" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="clone():Object"></a><a id="clone():AnyRef"></a>
       <span class="permalink">
@@ -449,7 +458,8 @@
         <span class="name">docb</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">handles document begin tag
+</p>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#doce" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="doce():Unit"></a>
       <span class="permalink">
@@ -465,7 +475,8 @@
         <span class="name">doce</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">handles document end tag
+</p>
     </li><li name="scala.AnyRef#eq" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="eq(x$1:AnyRef):Boolean"></a><a id="eq(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -498,22 +509,6 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#errorFound" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="errorFound:Boolean"></a>
-      <span class="permalink">
-      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MySyntaxAnalyzer.html#errorFound:Boolean" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">var</span>
-      </span>
-      <span class="symbol">
-        <span class="name">errorFound</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
-      </span>
-      
-      
     </li><li name="scala.AnyRef#finalize" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="finalize():Unit"></a>
       <span class="permalink">
@@ -555,22 +550,6 @@
                 <span class="name">@native</span><span class="args">()</span>
               
         </dd></dl></div>
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#getError" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="getError:Boolean"></a>
-      <span class="permalink">
-      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MySyntaxAnalyzer.html#getError:Boolean" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">getError</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
-      </span>
-      
-      
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#getNextToken" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="getNextToken():Unit"></a>
       <span class="permalink">
@@ -586,7 +565,8 @@
         <span class="name">getNextToken</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">asks the Lexical analyzer for the next token
+</p>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#gittex" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="gittex():Unit"></a>
       <span class="permalink">
@@ -602,7 +582,9 @@
         <span class="name">gittex</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">This is the top of the parse tree - the start symbol
+</p><div class="fullcomment"><div class="comment cmt"><p>This is the top of the parse tree - the start symbol
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#hasMoreCharacters" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="hasMoreCharacters():Boolean"></a>
       <span class="permalink">
@@ -618,7 +600,8 @@
         <span class="name">hasMoreCharacters</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">return true if more non blank characters after end symbol
+</p>
     </li><li name="scala.AnyRef#hashCode" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="hashCode():Int"></a>
       <span class="permalink">
@@ -653,7 +636,9 @@
         <span class="name">heading</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles heading tag per bnf
+</p><div class="fullcomment"><div class="comment cmt"><p>handles heading tag per bnf
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#image" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="image():Unit"></a>
       <span class="permalink">
@@ -669,7 +654,9 @@
         <span class="name">image</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles image tag per bnf
+</p><div class="fullcomment"><div class="comment cmt"><p>handles image tag per bnf
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#innerText" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="innerText():Unit"></a>
       <span class="permalink">
@@ -685,7 +672,8 @@
         <span class="name">innerText</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">handles inner text which can be a large number of possible symbols inside
+</p>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#isEveryCharacterIsText" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="isEveryCharacterIsText(str:String):Boolean"></a><a id="isEveryCharacterIsText(String):Boolean"></a>
       <span class="permalink">
@@ -701,7 +689,8 @@
         <span class="name">isEveryCharacterIsText</span><span class="params">(<span name="str">str: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">return true if every character in string is text or if it contains a certain character
+</p>
     </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isInstanceOf[T0]:Boolean"></a>
       <span class="permalink">
@@ -733,7 +722,8 @@
         <span class="name">link</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles link/anchor tag per bnf.</p><div class="fullcomment"><div class="comment cmt"><p>handles link/anchor tag per bnf. makes sure it has necessary syntax
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#listItem" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="listItem():Unit"></a>
       <span class="permalink">
@@ -749,7 +739,9 @@
         <span class="name">listItem</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles list item tag per bnf
+</p><div class="fullcomment"><div class="comment cmt"><p>handles list item tag per bnf
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -781,7 +773,9 @@
         <span class="name">newline</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles new line symbol per bnf
+</p><div class="fullcomment"><div class="comment cmt"><p>handles new line symbol per bnf
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="scala.AnyRef#notify" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="notify():Unit"></a>
       <span class="permalink">
@@ -835,7 +829,9 @@
         <span class="name">paragraph</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles paragraph tag per bnf
+</p><div class="fullcomment"><div class="comment cmt"><p>handles paragraph tag per bnf
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#parseTree" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="parseTree:scala.collection.mutable.Stack[String]"></a><a id="parseTree:Stack[String]"></a>
       <span class="permalink">
@@ -849,38 +845,6 @@
       </span>
       <span class="symbol">
         <span class="name">parseTree</span><span class="result">: <span class="extype" name="scala.collection.mutable.Stack">Stack</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
-      </span>
-      
-      
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#resetError" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="resetError():Unit"></a>
-      <span class="permalink">
-      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MySyntaxAnalyzer.html#resetError():Unit" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">resetError</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
-      </span>
-      
-      
-    </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#setError" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="setError():Unit"></a>
-      <span class="permalink">
-      <a href="../../../../../../edu/towson/cosc/cosc455/mcohen30/project1/MySyntaxAnalyzer.html#setError():Unit" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">setError</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
       
@@ -915,7 +879,8 @@
         <span class="name">text</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">handles text with the file
+</p>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#title" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="title():Unit"></a>
       <span class="permalink">
@@ -931,7 +896,9 @@
         <span class="name">title</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles title tag
+</p><div class="fullcomment"><div class="comment cmt"><p>handles title tag
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="scala.AnyRef#toString" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="toString():String"></a>
       <span class="permalink">
@@ -963,7 +930,9 @@
         <span class="name">variableDefine</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles defining variable tag
+</p><div class="fullcomment"><div class="comment cmt"><p>handles defining variable tag
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer#variableUse" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="variableUse():Unit"></a>
       <span class="permalink">
@@ -979,7 +948,9 @@
         <span class="name">variableUse</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
+      <p class="shortcomment cmt">handles using a variable symbol
+</p><div class="fullcomment"><div class="comment cmt"><p>handles using a variable symbol
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.MySyntaxAnalyzer">MySyntaxAnalyzer</a> → <a href="SyntaxAnalyzer.html" class="extype" name="edu.towson.cosc.cosc455.mcohen30.project1.SyntaxAnalyzer">SyntaxAnalyzer</a></dd></dl></div>
     </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="wait():Unit"></a>
       <span class="permalink">
